@@ -6,7 +6,6 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.db.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.web.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\System.ValueTuple.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.core.pdb
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.core.dll.config
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.db.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.db.dll.config
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.web.pdb

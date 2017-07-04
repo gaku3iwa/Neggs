@@ -39,52 +39,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\Between.cs" />
-    <Compile Include="Extensions\DateTime4Ages.cs" />
-    <Compile Include="Extensions\Shift_JIS.cs" />
-    <Compile Include="Extensions\ToKana.cs" />
-    <Compile Include="Extensions\ToETC.cs" />
-    <Compile Include="Extensions\ToInt.cs" />
-    <Compile Include="Extensions\ToLong.cs" />
-    <Compile Include="Extensions\ToDecimal.cs" />
-    <Compile Include="Extensions\ToDouble.cs" />
-    <Compile Include="Extensions\ToBool.cs" />
+    <Compile Include="変換\ToByte.cs" />
+    <Compile Include="変換\ToEra.cs" />
+    <Compile Include="変換\ToShort.cs" />
+    <Compile Include="比較\Between.cs" />
+    <Compile Include="日付操作\Ages.cs" />
+    <Compile Include="文字列操作\ShiftJIS.cs" />
+    <Compile Include="変換\ToKana.cs" />
+    <Compile Include="変換\ToDateTime.cs" />
+    <Compile Include="変換\ToInt.cs" />
+    <Compile Include="変換\ToLong.cs" />
+    <Compile Include="変換\ToDec.cs" />
+    <Compile Include="変換\ToDbl.cs" />
+    <Compile Include="変換\ToBool.cs" />
     <Compile Include="ValCon\ToLong.cs" />
-    <Compile Include="ValCon\ToDecimal.cs" />
-    <Compile Include="ValCon\ToDouble.cs" />
+    <Compile Include="ValCon\ToDec.cs" />
+    <Compile Include="ValCon\ToDbl.cs" />
     <Compile Include="ValCon\ToBool.cs" />
-    <Compile Include="ValCon\ToString.cs" />
-    <Compile Include="ValCon\ToStringEmpty.cs" />
+    <Compile Include="ValCon\ToStr.cs" />
+    <Compile Include="ValCon\ToStrEmpty.cs" />
     <Compile Include="ValCon\ToDateTime.cs" />
     <Compile Include="ValCon\ToDate.cs" />
     <Compile Include="ValCon\ToInt.cs" />
-    <Compile Include="Extensions\CopyProperties.cs" />
-    <Compile Include="Extensions\DateTime4Months.cs" />
-    <Compile Include="Extensions\Method4Strings.cs" />
-    <Compile Include="Extensions\_base.cs" />
+    <Compile Include="プロパティ操作\CopyProperties.cs" />
+    <Compile Include="日付操作\Months.cs" />
+    <Compile Include="文字列操作\Strings.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="ValCon\_base.cs" />
+    <Compile Include="ValCon.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config">
-      <SubType>Designer</SubType>
-    </None>
-    <Compile Include="Extensions\DeepCopy.cs" />
-    <Compile Include="Extensions\IsDiff.cs" />
+    <Compile Include="プロパティ操作\DeepCopy.cs" />
+    <Compile Include="比較\IsDiff.cs" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Extensions\__拡張メソッド" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

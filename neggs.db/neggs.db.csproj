@@ -38,14 +38,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBC.cs" />
-    <Compile Include="Extensions\DateTime.cs" />
-    <Compile Include="Extensions\Date.cs" />
-    <Compile Include="Extensions\Decimal.cs" />
-    <Compile Include="Extensions\Double.cs" />
-    <Compile Include="Extensions\Long.cs" />
-    <Compile Include="Extensions\Integer.cs" />
-    <Compile Include="Extensions\String.cs" />
-    <Compile Include="Extensions\_base.cs" />
+    <Compile Include="データベース値取得\GetDateTime.cs" />
+    <Compile Include="データベース値取得\GetDate.cs" />
+    <Compile Include="データベース値取得\GetDec.cs" />
+    <Compile Include="データベース値取得\GetDbl.cs" />
+    <Compile Include="データベース値取得\GetLong.cs" />
+    <Compile Include="データベース値取得\GetInt.cs" />
+    <Compile Include="データベース値取得\GetStr.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -61,7 +61,6 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Extensions\__拡張メソッド" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

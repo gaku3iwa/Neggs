@@ -4,7 +4,6 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\neggs.db.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\neggs.core.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\System.ValueTuple.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\neggs.core.pdb
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\neggs.core.dll.config
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.csprojResolveAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.pdb

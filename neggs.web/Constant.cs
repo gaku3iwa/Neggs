@@ -1,8 +1,7 @@
 ﻿namespace neggs.web
 {
-  public static partial class Constant
-  {
+	public static partial class Constant
+	{
 
-
-  }
+	}
 }

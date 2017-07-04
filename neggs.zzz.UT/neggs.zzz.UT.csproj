@@ -59,14 +59,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="core\Core4Base.cs" />
-    <Compile Include="core\Core4Datetimes.cs" />
-    <Compile Include="core\Core4Numerics.cs" />
-    <Compile Include="core\Core4Strings.cs" />
-    <Compile Include="db\Db4Cs.cs" />
-    <Compile Include="db\Db4Cs_size.cs" />
-    <Compile Include="web\Db4Ws.cs" />
-    <Compile Include="web\Db4Ws_size.cs" />
+    <Compile Include="TypeClientServer\Db4Cs.cs" />
+    <Compile Include="TypeClientServer\Db4Cs_size.cs" />
+    <Compile Include="TypeWebService\Db4Ws.cs" />
+    <Compile Include="TypeWebService\Db4Ws_size.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -74,6 +70,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="プロパティ操作\DeepCopy.cs" />
+    <Compile Include="変換\Numerics.cs" />
+    <Compile Include="変換\ToEra.cs" />
+    <Compile Include="変換\ToKana.cs" />
+    <Compile Include="文字列操作\ShiftJIS.cs" />
+    <Compile Include="文字列操作\Strings.cs" />
+    <Compile Include="日付操作\AgeOfMonths.cs" />
+    <Compile Include="比較\IsDiff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
