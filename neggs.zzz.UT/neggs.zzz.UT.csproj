@@ -39,10 +39,13 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.ValueTuple, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -59,6 +62,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="非同期\Throttle.cs" />
+    <Compile Include="非同期\ThrottleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="非同期\ThrottleForm.Designer.cs">
+      <DependentUpon>ThrottleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TypeClientServer\Db4Cs.cs" />
     <Compile Include="TypeClientServer\Db4Cs_size.cs" />
     <Compile Include="TypeWebService\Db4Ws.cs" />
@@ -100,6 +110,11 @@
       <Project>{d2f4c0e9-ed4f-46ef-a885-00a956016789}</Project>
       <Name>neggs.web</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="非同期\ThrottleForm.resx">
+      <DependentUpon>ThrottleForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

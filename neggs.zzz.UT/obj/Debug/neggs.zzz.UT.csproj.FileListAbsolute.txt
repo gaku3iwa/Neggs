@@ -13,3 +13,5 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.web.dll.con
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csprojResolveAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.UT.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.UT.pdb
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.ThrottleForm.resources
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csproj.GenerateResource.Cache
