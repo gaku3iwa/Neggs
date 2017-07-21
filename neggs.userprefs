@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>neggs.wpf.core/neggs.wpf.core.csproj</String>
+    <String>neggs.zzz.UT/neggs.zzz.UT.csproj</String>
+    <String>neggs.xmlWebSite/</String>
+  </DisabledProjects>
 </Properties>

@@ -1,5 +1,12 @@
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\bin\Debug\neggs.core.dll
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\bin\Debug\neggs.core.pdb
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\bin\Debug\System.ValueTuple.dll
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\obj\Debug\neggs.core.dll
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\obj\Debug\neggs.core.pdb
+C:/Users/iwakura/Documents/GitHub/neggs/neggs.core/bin/Debug/neggs.core.dll
+C:/Users/iwakura/Documents/GitHub/neggs/neggs.core/bin/Debug/neggs.core.pdb
+C:/Users/iwakura/Documents/GitHub/neggs/neggs.core/bin/Debug/System.ValueTuple.dll
+C:/Users/iwakura/Documents/GitHub/neggs/neggs.core/obj/Debug/neggs.core.dll
+C:/Users/iwakura/Documents/GitHub/neggs/neggs.core/obj/Debug/neggs.core.pdb
+/Users/gaku/GitHub/neggs/neggs.core/bin/Debug/neggs.core.dll
+/Users/gaku/GitHub/neggs/neggs.core/bin/Debug/neggs.core.pdb
+/Users/gaku/GitHub/neggs/neggs.core/bin/Debug/System.ValueTuple.dll
+/Users/gaku/GitHub/neggs/neggs.core/obj/Debug/neggs.core.csprojResolveAssemblyReference.cache
+/Users/gaku/GitHub/neggs/neggs.core/obj/Debug/neggs.core.csproj.CoreCompileInputs.cache
+/Users/gaku/GitHub/neggs/neggs.core/obj/Debug/neggs.core.dll
+/Users/gaku/GitHub/neggs/neggs.core/obj/Debug/neggs.core.pdb
