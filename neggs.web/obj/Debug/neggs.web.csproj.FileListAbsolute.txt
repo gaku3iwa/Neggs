@@ -7,3 +7,4 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.web\bin\Debug\neggs.core.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.web\obj\Debug\neggs.web.csprojResolveAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.web\obj\Debug\neggs.web.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.web\obj\Debug\neggs.web.pdb
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.web\bin\Debug\neggs.core.dll.config

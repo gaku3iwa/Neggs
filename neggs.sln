@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_document", "_document", "{11572B6D-F8B0-4BCE-88FF-F2481876485E}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.core", "neggs.core\ne
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "neggs.xmlWebSite", "neggs.xmlWebSite\", "{DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
 		ProjectReferences = "{af21c8d7-8c64-40ca-bf5b-db106c6ff38a}|neggs.core.dll;{f06905b2-6417-4407-a6b7-9861e4e72634}|neggs.db.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51200"
 		Debug.AspNetCompiler.PhysicalPath = "neggs.xmlWebSite\"
@@ -37,6 +37,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.web", "neggs.web\neggs.web.csproj", "{D2F4C0E9-ED4F-46EF-A885-00A956016789}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.zzz.UT", "neggs.zzz.UT\neggs.zzz.UT.csproj", "{E788C84D-3B65-47F9-B4C6-F1D4F15A3BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.wpf.core", "neggs.wpf.core\neggs.wpf.core.csproj", "{8B30BB36-DC11-4B99-976F-6934D503DB9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +132,22 @@ Global
 		{E788C84D-3B65-47F9-B4C6-F1D4F15A3BF0}.Release|x64.Build.0 = Release|Any CPU
 		{E788C84D-3B65-47F9-B4C6-F1D4F15A3BF0}.Release|x86.ActiveCfg = Release|Any CPU
 		{E788C84D-3B65-47F9-B4C6-F1D4F15A3BF0}.Release|x86.Build.0 = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|ARM.Build.0 = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|x64.Build.0 = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

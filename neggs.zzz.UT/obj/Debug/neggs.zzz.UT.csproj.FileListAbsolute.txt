@@ -15,3 +15,4 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.UT.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.UT.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.ThrottleForm.resources
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csproj.GenerateResource.Cache
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.core.dll.config
