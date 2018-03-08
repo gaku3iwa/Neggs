@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_document", "_document", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.core", "neggs.core\neggs.core.csproj", "{AF21C8D7-8C64-40CA-BF5B-DB106C6FF38A}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "", "neggs.xmlWebSite", "{DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "neggs.xmlWebSite", "neggs.xmlWebSite\", "{DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
 		ProjectReferences = "{af21c8d7-8c64-40ca-bf5b-db106c6ff38a}|neggs.core.dll;{f06905b2-6417-4407-a6b7-9861e4e72634}|neggs.db.dll;"
