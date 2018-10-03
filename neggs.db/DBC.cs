@@ -1,10 +1,9 @@
-﻿using System;
-using System.Configuration;
-using System.Data;
-using System.Data.Common;
-
-namespace neggs.db
+﻿namespace neggs.db
 {
+	using System;
+	using System.Configuration;
+	using System.Data;
+	using System.Data.Common;
 
 	/// <summary>
 	/// DBC の概要の説明です

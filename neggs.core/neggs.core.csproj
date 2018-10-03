@@ -35,15 +35,15 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.ValueTuple, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="描画操作\Distance.cs" />
     <Compile Include="LINQ拡張\Find.cs" />
     <Compile Include="変換\ToByte.cs" />
-    <Compile Include="変換\ToEra.cs" />
+    <Compile Include="変換_外部依存あり\ToEra.cs" />
     <Compile Include="変換\ToShort.cs" />
     <Compile Include="比較\Between.cs" />
     <Compile Include="日付操作\Ages.cs" />

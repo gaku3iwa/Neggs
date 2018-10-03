@@ -1,4 +1,3 @@
-C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.csprojResolveAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\neggs.wpf.core.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\neggs.wpf.core.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\neggs.core.dll
@@ -7,3 +6,7 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\neggs.core.pdb
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\neggs.core.dll.config
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.dll
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.pdb
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.csprojAssemblyReference.cache
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.csproj.CoreCompileInputs.cache
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\obj\Debug\neggs.wpf.core.csproj.CopyComplete
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.wpf.core\bin\Debug\System.ValueTuple.xml

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace neggs.web
+﻿namespace neggs.web
 {
+	using System;
+
 	public partial class Services
 	{
 
