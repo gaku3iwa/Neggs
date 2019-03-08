@@ -18,3 +18,4 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\neggs.core.dll.co
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csproj.CoreCompileInputs.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csproj.CopyComplete
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\obj\Debug\neggs.zzz.UT.csprojAssemblyReference.cache
+C:\Users\iwakura\Documents\GitHub\neggs\neggs.zzz.UT\bin\Debug\System.ValueTuple.xml
