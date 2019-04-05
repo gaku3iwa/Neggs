@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_document", "_document", "{11572B6D-F8B0-4BCE-88FF-F2481876485E}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.core", "neggs.core\ne
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "neggs.xmlWebSite", "neggs.xmlWebSite\", "{DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		ProjectReferences = "{af21c8d7-8c64-40ca-bf5b-db106c6ff38a}|neggs.core.dll;{f06905b2-6417-4407-a6b7-9861e4e72634}|neggs.db.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51200"
 		Debug.AspNetCompiler.PhysicalPath = "neggs.xmlWebSite\"
@@ -35,10 +35,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.db", "neggs.db\neggs.db.csproj", "{F06905B2-6417-4407-A6B7-9861E4E72634}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.web", "neggs.web\neggs.web.csproj", "{D2F4C0E9-ED4F-46EF-A885-00A956016789}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16} = {DA73FBEB-E36B-4652-8BDD-7A8F4EB59D16}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.zzz.UT", "neggs.zzz.UT\neggs.zzz.UT.csproj", "{E788C84D-3B65-47F9-B4C6-F1D4F15A3BF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B30BB36-DC11-4B99-976F-6934D503DB9D} = {8B30BB36-DC11-4B99-976F-6934D503DB9D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.wpf.core", "neggs.wpf.core\neggs.wpf.core.csproj", "{8B30BB36-DC11-4B99-976F-6934D503DB9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neggs.wpf", "neggs.wpf\neggs.wpf.csproj", "{8B30BB36-DC11-4B99-976F-6934D503DB9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A88E2AC-F241-4EA9-ACC0-D3E858B0F7D4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,5 +162,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A44FD962-E7DC-41B5-8347-B611D8391A14}
 	EndGlobalSection
 EndGlobal

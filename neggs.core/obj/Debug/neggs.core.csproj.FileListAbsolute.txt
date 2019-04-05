@@ -7,3 +7,12 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\obj\Debug\neggs.core.csproj.C
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\obj\Debug\neggs.core.csproj.CopyComplete
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\obj\Debug\neggs.core.csprojAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.core\bin\Debug\System.ValueTuple.xml
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\bin\Debug\neggs.core.dll
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\bin\Debug\neggs.core.pdb
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\bin\Debug\System.ValueTuple.dll
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\bin\Debug\System.ValueTuple.xml
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\obj\Debug\neggs.core.csproj.CoreCompileInputs.cache
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\obj\Debug\neggs.core.csproj.CopyComplete
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\obj\Debug\neggs.core.dll
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\obj\Debug\neggs.core.pdb
+C:\Users\pcuser\Source\Repos\neggs\neggs.core\obj\Debug\neggs.core.csprojAssemblyReference.cache

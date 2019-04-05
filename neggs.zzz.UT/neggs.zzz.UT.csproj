@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>neggs</RootNamespace>
     <AssemblyName>neggs.UT</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -41,7 +41,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
@@ -62,32 +62,31 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="非同期\Throttle.cs" />
-    <Compile Include="非同期\ThrottleForm.cs">
+    <Compile Include="neggs\非同期\Throttle.cs" />
+    <Compile Include="neggs\非同期\ThrottleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="非同期\ThrottleForm.Designer.cs">
+    <Compile Include="neggs\非同期\ThrottleForm.Designer.cs">
       <DependentUpon>ThrottleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="TypeClientServer\Db4Cs.cs" />
-    <Compile Include="TypeClientServer\Db4Cs_size.cs" />
-    <Compile Include="TypeWebService\Db4Ws.cs" />
-    <Compile Include="TypeWebService\Db4Ws_size.cs" />
-    <Compile Include="Constant.cs" />
+    <Compile Include="neggs.db\db.cs" />
+    <Compile Include="neggs.db\db_method.cs" />
+    <Compile Include="neggs.web\web.cs" />
+    <Compile Include="neggs.web\web_method.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="プロパティ操作\DeepCopy.cs" />
-    <Compile Include="変換\Numerics.cs" />
-    <Compile Include="変換\ToEra.cs" />
-    <Compile Include="変換\ToKana.cs" />
-    <Compile Include="文字列操作\ShiftJIS.cs" />
-    <Compile Include="文字列操作\Strings.cs" />
-    <Compile Include="日付操作\AgeOfMonths.cs" />
-    <Compile Include="比較\IsDiff.cs" />
+    <Compile Include="neggs.core\プロパティ操作\DeepCopy.cs" />
+    <Compile Include="neggs.core\変換\Numerics.cs" />
+    <Compile Include="neggs.core\変換\ToEra.cs" />
+    <Compile Include="neggs.core\変換\ToKana.cs" />
+    <Compile Include="neggs.core\文字列操作\ShiftJIS.cs" />
+    <Compile Include="neggs.core\文字列操作\Strings.cs" />
+    <Compile Include="neggs.core\日付操作\AgeOfMonths.cs" />
+    <Compile Include="neggs.core\比較\IsDiff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -112,7 +111,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="非同期\ThrottleForm.resx">
+    <EmbeddedResource Include="neggs\非同期\ThrottleForm.resx">
       <DependentUpon>ThrottleForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

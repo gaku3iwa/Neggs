@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Common;
-using System.Data.SqlClient;
-using System.Text;
 using System.Web.Services;
+using neggs.core;
 using neggs.db;
-using static neggs.db.Constant;
 
 public partial class Services
 {
@@ -26,7 +23,7 @@ public partial class Services
 	{
 		dbioResult<TableInfo> result = new dbioResult<TableInfo>();
 
-		string query = DatabaseSizeQuery;
+		string query = Const.DatabaseSizeQuery;
 
 		DBC dbc = new DBC();
 		try
@@ -57,7 +54,6 @@ public partial class Services
 			{
 				if (!reader.IsClosed)
 					reader.Close();
-				reader.Dispose();
 			}
 		}
 		catch (Exception ex)

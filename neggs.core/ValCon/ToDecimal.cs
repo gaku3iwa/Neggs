@@ -1,5 +1,5 @@
 ﻿using System;
-using Microsoft.VisualBasic;
+using System.Globalization;
 
 namespace neggs.core
 {
@@ -53,24 +53,12 @@ namespace neggs.core
 
     public static decimal ToDecimal(string Value)
     {
-      if (Information.IsNumeric(Value) == false)
-      {
-        return 0;
-      }
-      return Convert.ToDecimal(Value);
-    }
-
-    public static decimal ToDecimal(object Value)
-    {
-      if (Information.IsDBNull(Value))
-      {
-        return 0;
-      }
-      if (Information.IsNumeric(Value) == false)
-      {
-        return 0;
-      }
-      return Convert.ToDecimal(Value);
+      NumberFormatInfo numberFormat = CultureInfo.GetCultureInfo(Extensions.JP).NumberFormat;
+      bool bResult = decimal.TryParse(Value
+        , NumberStyles.Currency
+        , numberFormat
+        , out decimal returnValue);
+      return bResult ? returnValue : 0m;
     }
 
   }

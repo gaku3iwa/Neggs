@@ -6,7 +6,7 @@ namespace neggs.core
   partial class ValCon
   {
 
-    public static string ToStrEmpty(byte Value)
+    public static string ToStringEmpty(byte Value)
     {
       if (Value == 0)
       {
@@ -16,7 +16,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(byte Value, string Format)
+    public static string ToStringEmpty(byte Value, string Format)
     {
       if (Value == 0)
       {
@@ -26,7 +26,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(short Value)
+    public static string ToStringEmpty(short Value)
     {
       if (Value == 0)
       {
@@ -36,7 +36,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(short Value, string Format)
+    public static string ToStringEmpty(short Value, string Format)
     {
       if (Value == 0)
       {
@@ -46,7 +46,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(long Value)
+    public static string ToStringEmpty(long Value)
     {
       if (Value == 0)
       {
@@ -56,7 +56,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(long Value, string Format)
+    public static string ToStringEmpty(long Value, string Format)
     {
       if (Value == 0)
       {
@@ -66,7 +66,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(int Value)
+    public static string ToStringEmpty(int Value)
     {
       if (Value == 0)
       {
@@ -76,7 +76,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(int Value, string Format)
+    public static string ToStringEmpty(int Value, string Format)
     {
       if (Value == 0)
       {
@@ -86,7 +86,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(float Value)
+    public static string ToStringEmpty(float Value)
     {
       if (Value == 0)
       {
@@ -96,7 +96,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(float Value, string Format)
+    public static string ToStringEmpty(float Value, string Format)
     {
       if (Value == 0)
       {
@@ -106,7 +106,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(double Value)
+    public static string ToStringEmpty(double Value)
     {
       if (Value == 0)
       {
@@ -116,7 +116,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(double Value, string Format)
+    public static string ToStringEmpty(double Value, string Format)
     {
       if (Value == 0)
       {
@@ -126,7 +126,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(decimal Value)
+    public static string ToStringEmpty(decimal Value)
     {
       if (Value == 0)
       {
@@ -136,7 +136,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(decimal Value, string Format)
+    public static string ToStringEmpty(decimal Value, string Format)
     {
       if (Value == 0)
       {
@@ -146,13 +146,13 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(string Value)
+    public static string ToStringEmpty(string Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(DateTime Value, string Format)
+    public static string ToStringEmpty(DateTime Value, string Format)
     {
       if (Value == DateTime.MinValue)
       {
@@ -162,7 +162,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(DateTime Value)
+    public static string ToStringEmpty(DateTime Value)
     {
       if (Value == DateTime.MinValue)
       {
@@ -172,7 +172,7 @@ namespace neggs.core
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStrEmpty(DateTime Value, bool DateSlash)
+    public static string ToStringEmpty(DateTime Value, bool DateSlash)
     {
       if (Value == DateTime.MinValue)
       {

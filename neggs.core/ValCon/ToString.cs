@@ -6,104 +6,104 @@ namespace neggs.core
   partial class ValCon
   {
 
-    public static string ToStr(bool Value)
+    public static string ToString(bool Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(char Value)
+    public static string ToString(char Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(byte Value)
+    public static string ToString(byte Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(short Value)
+    public static string ToString(short Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(long Value)
+    public static string ToString(long Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(long Value, string Format)
+    public static string ToString(long Value, string Format)
     {
       return Value.ToString(Format);
     }
 
-    public static string ToStr(int Value)
+    public static string ToString(int Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(int Value, string Format)
+    public static string ToString(int Value, string Format)
     {
       return Value.ToString(Format);
     }
 
-    public static string ToStr(float Value)
+    public static string ToString(float Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(float Value, string Format)
+    public static string ToString(float Value, string Format)
     {
       return Value.ToString(Format);
     }
 
-    public static string ToStr(double Value)
+    public static string ToString(double Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(double Value, string Format)
+    public static string ToString(double Value, string Format)
     {
       return Value.ToString(Format);
     }
 
-    public static string ToStr(decimal Value)
+    public static string ToString(decimal Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(decimal Value, string Format)
+    public static string ToString(decimal Value, string Format)
     {
       return Value.ToString(Format);
     }
 
-    public static string ToStr(string Value)
+    public static string ToString(string Value)
     {
       string tmp = Convert.ToString(Value);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(DateTime Value, string Format)
+    public static string ToString(DateTime Value, string Format)
     {
       string tmp = Value.ToString(Format);
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(DateTime Value)
+    public static string ToString(DateTime Value)
     {
       string tmp = Value.ToString();
       return tmp.Replace(Strings.ChrW(12316).ToString(), "～");
     }
 
-    public static string ToStr(DateTime Value, bool DateSlash)
+    public static string ToString(DateTime Value, bool DateSlash)
     {
       if (DateSlash == false)
       {
@@ -117,12 +117,12 @@ namespace neggs.core
       }
     }
 
-    public static string ToStr(object Value)
+    public static string ToString(object Value)
     {
-      return ToStr(Value, true);
+      return ToString(Value, true);
     }
 
-    public static string ToStr(object Value, bool AddDateSlash)
+    public static string ToString(object Value, bool AddDateSlash)
     {
       if (Information.IsDBNull(Value))
       {

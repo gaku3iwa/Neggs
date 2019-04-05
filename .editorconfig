@@ -1,0 +1,13 @@
+# .editorconfig について詳しくは、次をご覧ください https://aka.ms/editorconfigdocs
+
+# All files
+[*]
+indent_style = space
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+# C Sharp files
+[*.cs]
+indent_size = 2

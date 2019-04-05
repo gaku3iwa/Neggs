@@ -11,3 +11,10 @@ C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.csproj.CoreC
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.csproj.CopyComplete
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\obj\Debug\neggs.db.csprojAssemblyReference.cache
 C:\Users\iwakura\Documents\GitHub\neggs\neggs.db\bin\Debug\System.ValueTuple.xml
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\bin\Debug\neggs.db.dll.config
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\bin\Debug\neggs.db.dll
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\bin\Debug\neggs.db.pdb
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\obj\Debug\neggs.db.csproj.CoreCompileInputs.cache
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\obj\Debug\neggs.db.dll
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\obj\Debug\neggs.db.pdb
+C:\Users\pcuser\Source\Repos\neggs\neggs.db\obj\Debug\neggs.db.csprojAssemblyReference.cache
