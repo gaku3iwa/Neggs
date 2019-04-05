@@ -62,11 +62,17 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="neggs\非同期\Throttle.cs" />
-    <Compile Include="neggs\非同期\ThrottleForm.cs">
+    <Compile Include="neggs.core\AgeOf\_AgeOf.cs" />
+    <Compile Include="neggs.core\Clone\_Clone.cs" />
+    <Compile Include="neggs.core\Compare\_Compare.cs" />
+    <Compile Include="neggs.core\Convert\_Convert.cs" />
+    <Compile Include="neggs.core\Strings\_Strings.cs" />
+    <Compile Include="neggs\Async\_Async.cs" />
+    <Compile Include="neggs\Async\Throttle.cs" />
+    <Compile Include="neggs\Async\ThrottleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="neggs\非同期\ThrottleForm.Designer.cs">
+    <Compile Include="neggs\Async\ThrottleForm.Designer.cs">
       <DependentUpon>ThrottleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="neggs.db\db.cs" />
@@ -79,14 +85,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="neggs.core\プロパティ操作\DeepCopy.cs" />
-    <Compile Include="neggs.core\変換\Numerics.cs" />
-    <Compile Include="neggs.core\変換\ToEra.cs" />
-    <Compile Include="neggs.core\変換\ToKana.cs" />
-    <Compile Include="neggs.core\文字列操作\ShiftJIS.cs" />
-    <Compile Include="neggs.core\文字列操作\Strings.cs" />
-    <Compile Include="neggs.core\日付操作\AgeOfMonths.cs" />
-    <Compile Include="neggs.core\比較\IsDiff.cs" />
+    <Compile Include="neggs.core\Clone\DeepCopy.cs" />
+    <Compile Include="neggs.core\Convert\Numerics.cs" />
+    <Compile Include="neggs.core\Convert\ToEra.cs" />
+    <Compile Include="neggs.core\Convert\ToKana.cs" />
+    <Compile Include="neggs.core\Strings\ShiftJIS.cs" />
+    <Compile Include="neggs.core\Strings\Validate.cs" />
+    <Compile Include="neggs.core\AgeOf\AgeOfMonths.cs" />
+    <Compile Include="neggs.core\Compare\IsDiff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -105,13 +111,17 @@
       <Project>{f06905b2-6417-4407-a6b7-9861e4e72634}</Project>
       <Name>neggs.db</Name>
     </ProjectReference>
+    <ProjectReference Include="..\neggs.vb\neggs.vb.csproj">
+      <Project>{c0fb9863-9029-4dcd-a817-769b710fe84b}</Project>
+      <Name>neggs.vb</Name>
+    </ProjectReference>
     <ProjectReference Include="..\neggs.web\neggs.web.csproj">
       <Project>{d2f4c0e9-ed4f-46ef-a885-00a956016789}</Project>
       <Name>neggs.web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="neggs\非同期\ThrottleForm.resx">
+    <EmbeddedResource Include="neggs\Async\ThrottleForm.resx">
       <DependentUpon>ThrottleForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

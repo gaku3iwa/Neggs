@@ -1,0 +1,8 @@
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\bin\Debug\neggs.vb.dll
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\bin\Debug\neggs.vb.pdb
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\bin\Debug\neggs.core.dll
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\bin\Debug\neggs.core.pdb
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\obj\Debug\neggs.vb.csproj.CoreCompileInputs.cache
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\obj\Debug\neggs.vb.csproj.CopyComplete
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\obj\Debug\neggs.vb.dll
+C:\Users\pcuser\Source\repos\neggs\neggs.vb\obj\Debug\neggs.vb.pdb

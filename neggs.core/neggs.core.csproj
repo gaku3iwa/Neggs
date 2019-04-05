@@ -31,49 +31,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Const.cs" />
-    <Compile Include="Extensions.vb\Strings.cs" />
-    <Compile Include="Extensions.vb\ToDateTime.cs" />
-    <Compile Include="Extensions.vb\ToKana.cs" />
     <Compile Include="Extensions\AgeOf\Month.cs" />
-    <Compile Include="ValCon\ToDecimal.cs" />
-    <Compile Include="ValCon\ToDouble.cs" />
-    <Compile Include="ValCon\ToString.cs" />
-    <Compile Include="ValCon\ToStringEmpty.cs" />
     <Compile Include="Extensions\Convert\ToDecimal.cs" />
     <Compile Include="Extensions\Convert\ToDouble.cs" />
     <Compile Include="Extensions\Math\Distance.cs" />
     <Compile Include="Extensions\Find.cs" />
     <Compile Include="Extensions\Convert\ToByte.cs" />
-    <Compile Include="Extensions.vb\ToEra.cs" />
     <Compile Include="Extensions\Convert\ToShort.cs" />
     <Compile Include="Extensions\Compare\Between.cs" />
     <Compile Include="Extensions\AgeOf\Year.cs" />
-    <Compile Include="Extensions\Strings\ShiftJIS.cs" />
-    <Compile Include="Extensions\Convert\ToKana.cs" />
     <Compile Include="Extensions\Convert\ToInt.cs" />
     <Compile Include="Extensions\Convert\ToLong.cs" />
     <Compile Include="Extensions\Convert\ToDec.cs" />
     <Compile Include="Extensions\Convert\ToDbl.cs" />
     <Compile Include="Extensions\Convert\ToBool.cs" />
-    <Compile Include="ValCon\ToLong.cs" />
-    <Compile Include="ValCon\ToDec.cs" />
-    <Compile Include="ValCon\ToDbl.cs" />
-    <Compile Include="ValCon\ToBool.cs" />
-    <Compile Include="ValCon\ToStr.cs" />
-    <Compile Include="ValCon\ToStrEmpty.cs" />
-    <Compile Include="ValCon\ToDateTime.cs" />
-    <Compile Include="ValCon\ToDate.cs" />
-    <Compile Include="ValCon\ToInt.cs" />
     <Compile Include="Extensions\Clone\CopyProperties.cs" />
     <Compile Include="Extensions\Strings\Validate.cs" />
     <Compile Include="Extensions\Extensions.cs" />
@@ -83,7 +60,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="ValCon\ValCon.cs" />
     <Compile Include="Extensions\Async\Throttle.cs" />
   </ItemGroup>
   <ItemGroup>
